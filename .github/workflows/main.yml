@@ -6,3 +6,9 @@ jobs:
     steps:
       - name: Printing info
         run: echo This is my first workflow
+      - name: Printing big text
+        run: |
+          echo first line
+          echo second line
+          echo third line
+          
